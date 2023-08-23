@@ -19,8 +19,8 @@ def change_file_into_csv():
     datasets_name = ['ETH', 'UCY', 'L-CAS', 'SDD', 'WildTrack', 'SYI', 'CFF']
     datasets_name = ['SDD']
     for dataset_name in datasets_name:
-        data_path = f'../new_datasets/raw/{dataset_name}'
-        csv_data_path = f'../new_datasets/csv_raw/{dataset_name}'
+        data_path = f'../datasets/raw/{dataset_name}'
+        csv_data_path = f'../datasets/csv_raw/{dataset_name}'
         os.makedirs(csv_data_path, exist_ok=True)
         datasets_list = os.listdir(data_path)
         if dataset_name == 'ETH':
@@ -277,9 +277,9 @@ def compare_txt_csv_file():
 
 
 def split_train_val_test_data(train_fraction, val_fraction, dataset_name):
-    data_path = f'./new_datasets/csv_raw/{dataset_name}'
+    data_path = f'./datasets/csv_raw/{dataset_name}'
     print(f'start to split file {dataset_name}')
-    split_data_path = f'./new_datasets/csv_raw_split/{train_fraction}-{val_fraction}/{dataset_name}'
+    split_data_path = f'./datasets/csv_raw_split/{train_fraction}-{val_fraction}/{dataset_name}'
     os.makedirs(split_data_path, exist_ok=True)
     datasets_list = os.listdir(data_path)
     for csv_file in datasets_list:
@@ -322,8 +322,8 @@ def load_data(train_fraction, val_fraction, dataset_names, phase, obs_len, pred_
 
     data_loaders = {}  # key: data_name,  value: data_loader
     for dataset_name in dataset_names:
-        preprocessed_data_path = f'./new_datasets/csv_preprocessed/{train_fraction}-{val_fraction}/{dataset_name}'
-        split_data_path = f'./new_datasets/csv_raw_split/{train_fraction}-{val_fraction}/{dataset_name}'
+        preprocessed_data_path = f'./datasets/csv_preprocessed/{train_fraction}-{val_fraction}/{dataset_name}'
+        split_data_path = f'./datasets/csv_raw_split/{train_fraction}-{val_fraction}/{dataset_name}'
         if os.path.exists(split_data_path) is False:
             split_train_val_test_data(train_fraction, val_fraction, dataset_name)
         datasets_list = os.listdir(split_data_path)

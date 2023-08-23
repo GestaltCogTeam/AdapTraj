@@ -1,0 +1,197 @@
+bookstore:
+   video0:
+      scale: 0.038392063
+      certainty: 1.0
+   video1:
+      scale: 0.039892913
+      certainty: 1.0
+   video2:
+      scale: 0.04062433
+      certainty: 1.0
+   video3:
+      scale: 0.039098596
+      certainty: 1.0
+   video4:
+      scale: 0.0396
+      certainty: 1.0
+   video5:
+      scale: 0.0396
+      certainty: 0.9
+   video6:
+      scale: 0.0413
+      certainty: 0.9
+
+coupa:
+   video0:
+      scale: 0.027995674
+      certainty: 1.0
+   video1:
+      scale: 0.023224545
+      certainty: 1.0
+   video2:
+      scale: 0.024
+      certainty: 1.0
+   video3:
+      scale: 0.025524906
+      certainty: 1.0
+
+deathCircle:
+   video0:
+      scale: 0.04064
+      certainty: 1.0
+   video1:
+      scale: 0.039076923
+      certainty: 1.0
+   video2:
+      scale: 0.03948382
+      certainty: 1.0
+   video3:
+      scale: 0.028478209
+      certainty: 1.0
+   video4:
+      scale: 0.038980137
+      certainty: 1.0
+
+gates:
+   video0:
+      scale: 0.03976968
+      certainty: 1.0
+   video1:
+      scale: 0.03770837
+      certainty: 1.0
+   video2:
+      scale: 0.037272793
+      certainty: 1.0
+   video3:
+      scale: 0.034515323
+      certainty: 1.0
+   video4:
+      scale: 0.04412268
+      certainty: 1.0
+   video5:
+      scale: 0.0342392
+      certainty: 1.0
+   video6:
+      scale: 0.0342392
+      certainty: 1.0
+   video7:
+      scale: 0.04540353
+      certainty: 1.0
+   video8:
+      scale: 0.045191525
+      certainty: 1.0
+
+
+hyang:
+   video0:
+      scale: 0.034749693
+      certainty: 1.0
+   video1:
+      scale: 0.0453136
+      certainty: 1.0
+   video2:
+      scale: 0.054992233
+      certainty: 1.0
+   video3:
+      scale: 0.056642
+      certainty: 1.0
+   video4:
+      scale: 0.034265612
+      certainty: 1.0
+   video5:
+      scale: 0.029655497
+      certainty: 1.0
+   video6:
+      scale: 0.052936449
+      certainty: 1.0
+   video7:
+      scale: 0.03540125
+      certainty: 1.0
+   video8:
+      scale: 0.034592381
+      certainty: 1.0
+   video9:
+      scale: 0.038031423
+      certainty: 1.0
+   video10:
+      scale: 0.054460944
+      certainty: 1.0
+   video11:
+      scale: 0.054992233
+      certainty: 1.0
+   video12:
+      scale: 0.054104065
+      certainty: 1.0
+
+   video13:
+      scale: 0.0541
+      certainty: 0.0
+   video14:
+      scale: 0.0541
+      certainty: 0.0
+
+little:
+   video0:
+      scale: 0.028930169
+      certainty: 1.0
+   video1:
+      scale: 0.028543144
+      certainty: 1.0
+   video2:
+      scale: 0.028543144
+      certainty: 1.0
+   video3:
+      scale: 0.028638926
+      certainty: 1.0
+
+nexus:
+   video0:
+      scale: 0.043986494
+      certainty: 1.0
+   video1:
+      scale: 0.043316805
+      certainty: 1.0
+   video2:
+      scale: 0.042247434
+      certainty: 1.0
+   video3:
+      scale: 0.045883871
+      certainty: 1.0
+   video4:
+      scale: 0.045883871
+      certainty: 1.0
+   video5:
+      scale: 0.045395745
+      certainty: 1.0
+   video6:
+      scale: 0.037929168
+      certainty: 1.0
+   video7:
+      scale: 0.037106087
+      certainty: 1.0
+   video8:
+      scale: 0.037106087
+      certainty: 1.0
+   video9:
+      scale: 0.044917895
+      certainty: 1.0
+   video10:
+      scale: 0.043991753
+      certainty: 1.0
+   video11:
+      scale: 0.043766154
+      certainty: 1.0
+
+quad:
+   video0:
+      scale: 0.043606807
+      certainty: 1.0
+   video1:
+      scale: 0.042530206
+      certainty: 1.0
+   video2:
+      scale: 0.043338169
+      certainty: 1.0
+   video3:
+      scale: 0.044396842
+      certainty: 1.0
