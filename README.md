@@ -1,4 +1,4 @@
-# AdapTraj: A Multi-Source Domain Generalization Framework for Multi-Agent Trajectory Prediction
+# AdapTraj: A Multi-Source Domain Generalization Framework for Multi-Agent Trajectory Prediction (ICDE2024)
 
 A pytorch implementation for the paper: [AdapTraj: A Multi-Source Domain Generalization Framework for Multi-Agent Trajectory Prediction](https://arxiv.org/abs/2312.14394)
 
